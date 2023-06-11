@@ -220,7 +220,5 @@ arch -x86_64 gameportingtoolkit-no-hud ~/Games 'C:\Program Files (x86)\Battle.ne
 # 참고자료
 
 - [Apple Gamning Wiki - Game Porting Toolkit](https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit)
-
 - [How to install game-porting-toolkit](https://gist.github.com/Frityet/448a945690bd7c8cff5fef49daae858e)
-
 - [Playing Diablo IV on macOS](https://www.outcoldman.com/en/archive/2023/06/07/playing-diablo-4-on-macos)
