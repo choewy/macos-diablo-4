@@ -1,9 +1,9 @@
 #!/bin/zsh
 
+arch -x86_64 zsh
+
 LANG=en_US.UTF-8
-
 WINE_PREFIX=~/battle.net
-
 PROGRAM_DIR='C:\Program Files (x86)'
 PROGRAM_PATH='Battle.net\Battle.net Launcher.exe'
 
