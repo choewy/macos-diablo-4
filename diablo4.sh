@@ -9,4 +9,4 @@ PROGRAM_PATH='Diablo IV/Diablo IV Launcher.exe'
 
 arch -x86_64 gameportingtoolkit-no-hud $WINE_PREFIX "'${PROGRAM_DIR}/${PROGRAM_PATH}'"
 
-exit 0bann
+exit 0
