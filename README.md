@@ -93,7 +93,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
 ```zsh
 $ (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/$USER/.zprofile
-eval "$(/usr/local/bin/brew shellenv)"
+$ eval "$(/usr/local/bin/brew shellenv)"
 ```
 
 아래 명령어를 입력해서 설정된 실행 경로를 확인한다.
