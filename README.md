@@ -213,6 +213,19 @@ LANG=en_US.UTF-8
 arch -x86_64 gameportingtoolkit-no-hud ~/Games 'C:\Program Files (x86)\Battle.net\Battle.net Launcher.exe'
 ```
 
+### 7.3 Application 등록 Automator - 셸 스크립트 실행 - 코드 입력 - 응용프로그램에 `Diablo IV` 저장
+```zsh
+#!/bin/zsh
+
+export PATH="/usr/local/bin:${PATH}"
+LANG=en_US.UTF-8
+arch -x86_64 gameportingtoolkit-no-hud ~/Games 'C:\Program Files (x86)\Battle.net\Battle.net Launcher.exe'
+
+LANG=en_US.UTF-8
+arch -x86_64 gameportingtoolkit-no-hud ~/Games 'C:\Program Files (x86)\Battle.net\Battle.net Launcher.exe'
+```
+
+
 # 마치며
 
 맥북에서 디아블로 4가 처음 실행되는 것을 확인했을 당시에는 디아블로 4 전설 아이템을 획득할 때보다 훨씬 짜릿했다. 한가지 단점이 있다면, 맥북으로 디아블로를 실행하면 맥북의 발열이 심해진다는 것이다. 디아블로 디스플레이 옵션을 `낮음`으로 설정해놓고, 프레임을 80으로 고정해놓고 플레이해도 표면 온도 40도 정도를 유지하는 것 같다. 역시 맥북이라 그런지는 몰라도, 디스플레이 옵션을 `낮음`으로 해놓고 플레이해도 매우 우수한 화질로 게임을 플레이할 수 있다. 내 본업(개발자)을 위해 구매한 맥북으로 디아블로 4를 플레이할 줄이야... 며칠만 즐기다가 다시 코딩해야겠다.
@@ -222,3 +235,4 @@ arch -x86_64 gameportingtoolkit-no-hud ~/Games 'C:\Program Files (x86)\Battle.ne
 - [Apple Gamning Wiki - Game Porting Toolkit](https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit)
 - [How to install game-porting-toolkit](https://gist.github.com/Frityet/448a945690bd7c8cff5fef49daae858e)
 - [Playing Diablo IV on macOS](https://www.outcoldman.com/en/archive/2023/06/07/playing-diablo-4-on-macos)
+- [YouTube : Diablo 4 Works on Mac, This is How (Instructions, FPS test)](https://www.youtube.com/watch?v=5Nd-nR3-6lU&t=492s)
